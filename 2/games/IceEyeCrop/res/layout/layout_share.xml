@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:umadsdk="http://schemas.android.com/apk/res/com.iceeye.crop"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+		<!-- umadsdk:textColor  广告文本颜色[只对文字广告有效] -->
+	    <!-- umadsdk:backgroundColor  广告背景颜色[只对文字广告有效] -->
+	    <!-- umadsdk:backgroundTransparent  广告背景透明度[只对文字广告有效] 范围是0到255[0表示完全透明,255表示完全不透明]  -->
+	  <net.youmi.android.AdView
+	   android:id="@+id/adView"  
+	   android:layout_width="fill_parent"  
+	   android:layout_height="wrap_content"
+	   umadsdk:textColor="#ffffff"    
+	   umadsdk:backgroundColor="#4076AA"
+	   umadsdk:backgroundTransparent="255"
+	   /> 
+		 <LinearLayout
+		 		
+		 		android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:gravity="center"
+				android:layout_margin="5dip"
+				android:layout_weight="2"
+				>
+			<ScrollView 
+				 android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal"
+				android:gravity="center">
+				<LinearLayout
+		 		android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="5dip"
+				android:background="@color/green"
+				>
+				  <ImageView  
+					android:id="@+id/croped_img"
+				    android:layout_width="wrap_content" 
+				    android:layout_height="wrap_content" 
+				    />
+			  </LinearLayout>
+				>
+			</ScrollView>
+		 </LinearLayout>
+		 
+		 
+		 <LinearLayout
+		 		 android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="fill_horizontal"
+				android:orientation="horizontal"
+				android:background="@drawable/bootom_bg_narrow"
+				>
+				
+			<Button  
+				android:id="@+id/bt_save"
+			    android:layout_width="wrap_content" 
+			    android:layout_height="wrap_content" 
+	  		    android:layout_marginLeft="10dip"
+			    android:text="保存"
+			    />
+			<Button  
+				android:id="@+id/bt_share"
+			    android:layout_width="wrap_content" 
+			    android:layout_height="wrap_content" 
+			     android:text="分享到"
+			     android:gravity="center"
+			    android:textColor="@color/white"
+			    android:layout_weight="1"
+			    />
+			<Button  
+				android:gravity="center"
+				android:id="@+id/bt_drop"
+			    android:layout_width="wrap_content" 
+			    android:layout_height="wrap_content" 
+			     android:layout_marginRight="10dip"
+			    android:text="放弃"
+			    />
+	  
+  </LinearLayout>
+             
+             
+			
+</LinearLayout>

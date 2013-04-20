@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/tabsLayout" 
+	android:background="@android:color/transparent" android:padding="2.0dp"
+	android:layout_width="wrap_content" android:layout_height="wrap_content">
+	
+<ImageView android:id="@+id/main_tab_image" 
+	android:layout_alignParentTop="true" 
+	android:layout_centerHorizontal="true" 
+	android:duplicateParentState="true" 
+	android:layout_width="32dp" 
+	android:layout_height="32dp"
+	android:layout_marginTop="0.0dp" />
+			
+<TextView android:id="@+id/main_tab_text" 
+	android:layout_below="@+id/main_tab_image" 
+	android:layout_centerHorizontal="true" 
+	android:duplicateParentState="true" 
+	android:textSize="12sp" 
+	android:textColor="@drawable/pig_textcolor_maintab"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:visibility="visible"
+	android:singleLine="true" />
+		
+		
+</RelativeLayout>

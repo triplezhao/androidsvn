@@ -1,0 +1,14 @@
+1.命令行执行 java -jar up.jar gfive 2.7 10 2012-6-6 false
+
+2.五个参数必须加上，不能多也不能少
+
+3.刷的时候，在d盘建个文件夹，把jar和db_up.db放入
+
+
+
+gfive 2.7 10 2012-6-6 false
+
+szshuaji 2.7 10 2012-6-6 false
+
+4.修改完程序打包的时候，有3个选项，
+选第一个 extract required libaries into generated JAR

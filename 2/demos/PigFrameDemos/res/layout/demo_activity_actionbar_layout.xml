@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+ <FrameLayout 
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+	<LinearLayout
+	  android:orientation="vertical"
+	  android:layout_width="fill_parent"
+	  android:layout_height="fill_parent">
+ 
+  	  <include layout="@layout/pig_titlebar"/>
+	  
+	  <LinearLayout
+	  android:orientation="horizontal"
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content"
+	  android:layout_margin="20dip">
+		  <Button 
+		  android:id="@+id/tv_test_bar"
+		  android:layout_width="wrap_content"
+		  android:layout_height="wrap_content"
+		  android:text="ACTIONBAR"
+		  />
+	  </LinearLayout>
+
+	</LinearLayout>
+	
+		<pigframe.views.widet.PigComposeWidget
+		 	  android:layout_width="45dip"
+			  android:layout_height="45dip"	
+		 	  android:id="@+id/pcv_compose"
+			  android:layout_gravity="left|bottom"
+			  android:gravity="center"
+			  android:layout_margin="5dip"
+			/>
+  </FrameLayout>

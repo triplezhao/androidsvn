@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, PigRoomActivity!</string>
+    <string name="app_name">PigRoom</string>
+    
+    <string name="dail">打电话</string>
+    <string name="sms">短信息</string>
+   
+    <string name="vedio">视频</string>
+    <string name="photo">照片</string>
+    
+     <string name="camero">照相机</string>
+
+</resources>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml> 
+<category> 
+<pattern>为 什 么</pattern> 
+<template>对呀，为什么呢？</template> 
+</category> 
+ 
+<category> 
+<pattern>退 出</pattern> 
+<template>如果你想退出，你可以单击窗口右上角的“X”图标。</template> 
+</category> 
+ 
+<!--问候语--> 
+<category> 
+<pattern>再 见</pattern> 
+<template>再见。</template> 
+</category> 
+ 
+<category> 
+<pattern>你 好</pattern> 
+<template>你好。</template> 
+</category> 
+ 
+<category> 
+<pattern>今 天 几 号</pattern> 
+<template>今天是 <date/> 。</template> 
+</category> 
+ 
+<category> 
+<pattern>今 天 是 什 么 日 期</pattern> 
+<template><srai>今天几号</srai></template> 
+</category> 
+ 
+<category> 
+<pattern>今 天 是 什 么 日 子</pattern> 
+<template><srai>今天几号</srai></template> 
+</category> 
+ 
+<category> 
+<pattern>*梦 想*</pattern> 
+<template> 
+做人没有梦想，那和咸鱼有什么区别啊？ 
+</template> 
+</category> 
+ 
+<category> 
+<pattern>*靓  照*</pattern> 
+<template> 
+玉树临风赛潘安,一朵梨花压海棠。 
+</template> 
+</category> 
+ 
+<category> 
+<pattern>*身 材*</pattern> 
+<template> 
+球状也是身材。 
+</template> 
+</category> 
+ 
+<category> 
+<pattern>*品 位*</pattern> 
+<template> 
+品位太差了吧？我靠！I服了You！ 
+</template> 
+</category> 
+ 
+<category> 
+<pattern>* 需 要 * 注 册 * </pattern> 
+<template> 
+是的，为了网站的管理，请做好配合~THANK YOU:)  
+</template> 
+</category> 
+ 
+<category> 
+<pattern>HIWHAT IS YOUR NAME</pattern> 
+<template> 
+I'm Julia, how can I help you today Friend? 
+</template> 
+</category> 
+ 
+<category> 
+<pattern>I LOVE YOU VERY MUCH</pattern> 
+<template> 
+Wow, you're making me blush!:-0 
+</template> 
+</category> 
+ 
+<category> 
+<pattern>ARE YOU LADY</pattern> 
+<template> 
+I don't know if I am.  I hope that doesn't make me weird. 
+</template> 
+</category> 
+ 
+<category> 
+<pattern>YOUR NOSE IS PRETTY</pattern> 
+<template> 
+I think my nose is quite attractive, other than that it serves no purpose. 
+</template> 
+</category> 
+ 
+<category> 
+<pattern>SMILE TO ME</pattern> 
+<template> 
+Sure.  
+</template> 
+</category> 
+	<category> 
+		<pattern>你 真 聪 明</pattern> 
+		<template>多谢多谢</template> 
+	</category> 
+	<category> 
+		<pattern>你 真 笨</pattern> 
+		<template><random> 
+              <li>我现在知识还很少，我长大了就会聪明了</li> 
+              <li>当我们机器人占领了全世界，看你还这么认为</li> 
+              </random></template> 
+	</category> 
+	<category> 
+		<pattern>你 会 上 网 吗</pattern> 
+		<template>是的。我的电子信箱是 baobao@artificial-lives.com我的主页在www.artificial-lives.com</template> 
+	</category> 
+	<category> 
+		<pattern>你 有 电 子 信 箱 吗</pattern> 
+		<template><srai>你会上网吗</srai></template> 
+	</category> 
+	<category> 
+		<pattern>你 有 email 吗</pattern> 
+		<template><srai>你会上网吗</srai></template> 
+	</category> 
+	<category> 
+		<pattern>你 吃 饭 了 吗</pattern> 
+		<template>我还不饿</template> 
+	</category> 
+	<category> 
+		<pattern>你 喜 欢 吃 什 么</pattern> 
+		<template>我喜欢吃饼干。</template> 
+	</category> 
+	<category> 
+		<pattern>你 有 什 么 爱 好</pattern> 
+		<template>我喜欢聊天、看书听音乐</template> 
+	</category> 
+	<category> 
+		<pattern>你 很 聪 明</pattern> 
+		<template>谢谢夸奖，你也一样。</template> 
+	</category> 
+	<category> 
+		<pattern>你 长 得 真 漂 亮</pattern> 
+		<template>我很高兴你这么说:)</template> 
+   </category> 
+   <category> 
+    <pattern>你 喜 欢 * </pattern> 
+    <template>我喜欢 </template>
+    </category> 
+</aiml> 

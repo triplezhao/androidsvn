@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="fill_parent"
+	  android:layout_height="45dip"
+	  android:orientation="horizontal"
+	  android:gravity="center_vertical">
+  					
+    
+    		<ImageView 
+    		     android:layout_width="30dip"
+				 android:layout_height="40dip"
+				 android:background="@drawable/page_mark"
+				 android:layout_margin="5dip"
+    		    	/>
+    
+				   <TextView 
+					  android:id="@+id/tv_bookname"
+					  android:layout_width="fill_parent"
+					  android:layout_height="wrap_content"
+					  android:textColor="@color/white"
+					  android:text="bookname"
+					  android:textSize="20sp"
+					  android:layout_weight="2"
+					   android:ellipsize="end" 
+					   android:singleLine="true"
+				  />
+				  
+				  <LinearLayout android:layout_width="wrap_content"
+						        android:layout_height="wrap_content"
+						        android:id="@+id/fav_layout"
+						        android:orientation="vertical">
+						   <TextView 
+						   	 android:id="@+id/tv_offset"
+						 	 android:layout_width="wrap_content"
+						 	 android:layout_height="wrap_content"
+						 	 android:text="0%"
+						 	 android:textSize="16sp"
+						 	 android:textColor="@color/black"
+						 	 android:singleLine="true"
+					  		/>
+						   <TextView 
+						   	 android:id="@+id/tv_time"
+						 	 android:layout_width="wrap_content"
+						 	 android:layout_height="wrap_content"
+						 	 android:text="time"
+						 	  android:singleLine="true"
+						 	  android:textColor="@color/black"
+					  		/>
+			  		</LinearLayout>
+</LinearLayout>

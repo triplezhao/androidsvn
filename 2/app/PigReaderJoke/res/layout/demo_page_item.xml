@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="fill_parent"
+	  android:layout_height="fill_parent"
+	  android:background="@drawable/pagebg3">
+  
+  			<Button 
+				   	 android:id="@+id/btn_menu"
+				 	 android:layout_width="120dip"
+				 	 android:layout_height="fill_parent"
+				 	 android:layout_centerInParent="true"
+				 	 android:background="@color/transparent"
+			  		/>
+  			
+  			<LinearLayout  
+  			 		  android:layout_width="fill_parent"
+					  android:layout_height="fill_parent"
+					  android:orientation="vertical">
+					  
+				   <TextView 
+					  android:id="@+id/tv_page"
+					  android:layout_width="fill_parent"
+					  android:layout_height="fill_parent"
+					  android:textColor="@color/black"
+					   android:text="content"
+					   android:layout_weight="1"
+					   android:layout_margin="10dip"
+				  />
+			  		
+		  		<RelativeLayout
+				      android:layout_width="fill_parent" 
+				      android:layout_height="20dip">
+			  		 <TextView 
+						  android:id="@+id/tv_offset"
+						  android:layout_width="wrap_content"
+						  android:layout_height="wrap_content"
+						  android:textColor="@color/black"
+						  android:text="0.00%"
+						   android:layout_alignParentLeft="true"
+						   android:layout_alignParentBottom="true"
+					   		android:layout_margin="2dip"
+				  			/>
+			  		<TextView 
+					  android:id="@+id/tv_bookname"
+					  android:layout_width="200dip"
+					  android:layout_height="wrap_content"
+					  android:textColor="@color/black"
+					  android:text="name"
+					  android:layout_centerHorizontal="true"
+					  android:layout_alignParentBottom="true"
+					  android:layout_margin="2dip"
+					  android:ellipsize="end" 
+					  android:singleLine="true"
+					  android:gravity="center_horizontal"
+				  />
+			  		<TextView 
+					  android:id="@+id/tv_time"
+					  android:layout_width="wrap_content"
+					  android:layout_height="wrap_content"
+					  android:textColor="@color/black"
+					  android:layout_alignParentRight="true"
+					  android:layout_alignParentBottom="true"
+					  android:layout_margin="2dip"
+					  android:singleLine="true"
+					  android:text="time"
+				  />
+			  	</RelativeLayout>	
+			  </LinearLayout>	
+			  
+  			
+</RelativeLayout>

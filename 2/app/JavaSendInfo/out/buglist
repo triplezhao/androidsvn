@@ -1,0 +1,17 @@
+1.目前的查询速度太慢，从记录中随机查询一条记录时间300ms了已经。
+
+imeidao.java
+
+ private ResultSet getRandomOneByChanelAndDateImei(String chanel,long maxdate,long mindate)
+    {
+//    	随机查询
+//    	SELECT * FROM 表名 ORDER BY RANDOM() limit 1
+    	ResultSet  cursor=dBConnection.exeQuerySql("select * from "+TB_NAME
+    			+" where "+imei_chanel+" ='"+chanel
+    			+"' and "+imei_date+" > "+mindate+" and "+imei_date+" < "+maxdate
+    			+" ORDER BY RANDOM() limit 1;");
+    	
+    	
+    	return cursor;
+    }
+

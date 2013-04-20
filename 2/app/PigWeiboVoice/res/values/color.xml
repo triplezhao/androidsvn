@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="transparent">#00000000</color>
+    
+  <drawable name="white">#FFFFFFFF</drawable>
+  <drawable name="black">#000000</drawable>
+  <drawable name="other">#fff00f</drawable>
+  <drawable name="blue">#0000FF</drawable>
+  <drawable name="translucent_background">#7F000000</drawable>
+  
+  
+    <drawable name="red">#7F00</drawable>
+    <drawable name="blue">#770000FF</drawable>
+    <drawable name="green">#7700FF00</drawable>
+	<drawable name="yellow">#77FFFF00</drawable>
+
+    <drawable name="solid_red">#F00</drawable>
+    <drawable name="solid_blue">#0000FF</drawable>
+    <drawable name="solid_green">#F0F0</drawable>
+    <drawable name="solid_yellow">#FFFFFF00</drawable>
+    <drawable name="solid_white">#FFFFFFFF</drawable>
+    <drawable name="solid_black">#FF000000</drawable>
+    
+	<color name="gray">#ff3c3c3c</color>
+	<color name="btgreen">#ff6abe49</color>
+	<color name="btwhite">#ffe7e7e7</color>
+	<color name="white">#ffffffff</color>
+	<color name="buttonText">#101410</color>
+	<color name="textBack">#8c8c8c</color>
+    <color name="black">#FF000000</color>
+    <color name="tab_noFocus">#b1aeb1</color>
+    <color name="input_prompt">#747674</color>
+	<color name="login_bg">#ff666666</color>
+	<color name="newsflash">#00b7eeff</color><!-- 快讯 -->
+	<color name="red">#ffff0000</color><!-- 会员红色 -->
+	<color name="menu_no">#787878</color>
+
+	<color name="writemsg_bg">#d7e8ea</color>
+	<color name="writemsg_title_color">#34afe2</color>
+
+	<color name="white_gray">#FFACACAC</color>
+	<color name="button_text">#FF101410</color>
+	<color name="cluster_type_advance">#FFFF0000</color>
+	<color name="conversationBG0">#FFD1EEFF</color>
+	<color name="conversationBG1">#FFFFFFFF</color>
+	<color name="conversationBodyBG0">#FF0050AC</color>
+	<color name="conversationBodyBG1">#FF3F3F3F</color>
+	<color name="conversationname">#870E0E</color>
+	<color name="contact_head">#6FFFFFFF</color>
+	<color name="translucent">#AA000000</color>
+<!--	"等待", "接受", "拒绝", "超时", "取消"-->
+	<color name="ivr_statr_wait">#FF808080</color>
+	<color name="ivr_statr_accept">#FF92d050</color>
+	<color name="ivr_statr_reject">#FFFF0000</color>
+	<color name="ivr_statr_timeout">#FFFF0000</color>
+	<color name="ivr_statr_cancel">#FF00FF00</color>
+	<color name="transparent_background">#00000000</color>
+	<color name="half_transparent_background">#cf000000</color>
+	<color name="half_transparent">#90000000</color>
+	<color name="userblue">#FF00F6FF</color>
+	
+	<color name="tabtextfocus_true">#EE1112</color>
+	<color name="tabtextfocus_false">#D36262</color>
+	<color name="contact_vip_name">#E82F2F</color>
+	<color name="contact_name">#3C3C3C</color>
+	<color name="moodphrase">#616162</color>
+	<color name="addressname">#3C3C3C</color>
+	<color name="addressphone">#5A6F7D</color>
+	<color name="wifilogin">#3897DE</color>
+	<color name="group">#3C3C3C</color>
+	<color name="transparent">#00000000</color>
+	<color name="sessionname">#345C70</color>
+	<color name="sessionbodyme">#005184</color>
+	<color name="sessionbodyellow">#473a32</color>
+	<color name="lightblue">#297192</color>
+	<!-- 日历 -->
+	<color name="calendar_background">#000000</color> 
+    <color name="recordremind_background">#FFFFFF</color> 
+    
+    <!-- 日历边框颜色 -->
+    <color name="icolor_header_bkg">#FFFFFF</color>
+    
+ 	<color name="icolor_text_header">#009ACD</color>
+    
+    <color name="icolor_saturday_text">#197cc9</color>
+    <color name="icolor_sunday_text">#ee2a31</color>
+    <color name="icolor_today_text">#000000</color>
+    <color name="icolor_day_text">#297192</color>
+    
+    <color name="icolor_alpha_inactive_month">#e9f5f5</color>
+    
+    <color name="icolor_bkg">#FFFFFF</color>
+    <color name="icolor_bkg2">#000000</color>
+    <color name="icolor_bkg_focus_dark">#FFC125</color>
+    <color name="icolor_bkg_focus_light">#FFFFFF</color>
+    
+    <color name="icolor_text_selected">#FFFFFF</color>
+    <color name="icolor_text_focused">#197cc9</color>
+    <color name="icolor_today_bkg">#DC143C</color>
+    <color name="blue">#0000FF</color>
+    <color name="green">#F0F0</color>
+    <color name="yellow">#FFFFFF00</color>
+    <color name="transyellow">#05FFFFFF</color>
+    <color name="orangeRed">#FF4500</color>
+    <color name="frame_gray">#ABABAB</color>
+    
+     <!-- 页面默认背景颜色 -->
+    <color name="activity_bg">#AEBED7</color>
+  
+</resources>

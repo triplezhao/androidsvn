@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+    <include layout="@layout/pig_titlebar"></include>
+  <ListView 
+		  android:id="@+id/lv_sets"
+		  android:layout_width="fill_parent"
+		  android:layout_height="wrap_content"
+		  android:scrollbars="vertical"
+		  android:cacheColorHint="@color/transparent"
+	  />
+</LinearLayout>

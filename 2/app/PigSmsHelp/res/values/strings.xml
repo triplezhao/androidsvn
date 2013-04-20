@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, PigSmsHelpActivity!</string>
+    <string name="app_name">PigSmsHelp</string>
+	 <string-array name="indexs">
+	　　        <item>话费余额</item>
+	　　        <item>GPRS流量</item>
+	　　        <item>套餐详情</item>
+	　　        <item>短信条数</item>
+	　　        <item>开通飞信</item>
+	　　        <item>取消飞信</item>
+	　　        <item>开通短信回执</item>
+	　　        <item>取消短信回执</item>
+	</string-array>
+</resources>

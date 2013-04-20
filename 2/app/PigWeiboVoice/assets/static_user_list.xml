@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<userinfos>
+	<userinfo id="01">
+		<name>那英</name>
+		<nickname>那英</nickname>
+		<pict>1.jpg</pict>
+	</userinfo>
+	<userinfo id="02">
+		<name>庾澄慶</name>
+		<nickname>庾澄慶</nickname>
+		<pict>2.jpg</pict>
+	</userinfo>
+	<userinfo id="03">
+		<name>杨坤</name>
+		<nickname>杨坤</nickname>
+		<pict>3.jpg</pict>
+	</userinfo>
+	<userinfo id="04">
+		<name>李代沫</name>
+		<nickname>李代沫Demon</nickname>
+		<pict>5.jpg</pict>
+	</userinfo>
+	<userinfo id="05">
+		<name>呉墨愁</name>
+		<nickname>呉墨愁Momo</nickname>
+		<pict>4.jpg</pict>
+	</userinfo>
+	<userinfo id="06">
+		<name>徐海星</name>
+		<nickname>徐海星</nickname>
+		<pict>6.jpg</pict>
+	</userinfo>
+	<userinfo id="07">
+		<name>丁丁</name>
+		<nickname>丁丁头发乱</nickname>
+		<pict>7.jpg</pict>
+	</userinfo>
+	<userinfo id="08">
+		<name>吉克隽逸</name>
+		<nickname>吉克隽逸</nickname>
+		<pict>jkjy.jpg</pict>
+	</userinfo>
+	<userinfo id="09">
+		<name>梁博</name>
+		<nickname>梁博--</nickname>
+		<pict>lb.jpg</pict>
+	</userinfo>
+	<userinfo id="10">
+		<name>Tia袁娅维</name>
+		<nickname>Tia袁娅维</nickname>
+		<pict>tiayyw.jpg</pict>
+	</userinfo>
+	<userinfo id="11">
+		<name>张玮是谁</name>
+		<nickname>张玮是谁</nickname>
+		<pict>sszw.jpg</pict>
+	</userinfo>
+	<userinfo id="12">
+		<name>多亮</name>
+		<nickname>多亮</nickname>
+		<pict>dl.jpg</pict>
+	</userinfo>
+	<userinfo id="13">
+		<name>主唱张赫宣</name>
+		<nickname>主唱张赫宣</nickname>
+		<pict>zczhx.jpg</pict>
+	</userinfo>
+</userinfos>

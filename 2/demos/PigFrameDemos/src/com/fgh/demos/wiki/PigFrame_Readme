@@ -1,0 +1,12 @@
+1.写自己的Aplication继承PigApplication
+2.网络访问的继承PigHttpBaseActivity
+3.主页为tab的继承PigMainTabAct
+4.网络访问功能自带缓存功能，使用时候usecache参数。
+5.图片自带缓存功能。AsyncImageLoader方法设置imageview的图片。实现callback
+6.log使用pig包中的log类。可以方便开启和关闭log
+7.可以在applaction中设置setPigUncaughtExceptionHandler设置出了异常后的处理
+8.微博里面查看图片的功能
+9.titlebar可以在activity中initTitleBar。左右按钮和title
+10.actionbar可以给某个view添加点击事件，弹出actionbar。里面可以设置一些actionbutton。
+11.PigComposeWidget。这个需要事先在layout中添加这个控件，然后设置5个action的点击事件
+和icon。目前只支持左下角的位置，而且只支持5个action。

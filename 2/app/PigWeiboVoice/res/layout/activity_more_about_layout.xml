@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<RelativeLayout  
+  			 xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="fill_parent"  
+             android:layout_height="fill_parent" 
+             >
+				  
+				 
+					  <TextView 
+					    android:id="@+id/tv_banquan" 
+					   android:layout_height="wrap_content" 
+					   android:layout_width="fill_parent" 
+					   android:text="Copyright ©2012 FGH Corporation All Rights Reserved" 
+					   android:textSize="12sp"
+					   android:layout_alignParentBottom="true" 
+					   android:layout_marginBottom="10dip"
+					   android:gravity="center_horizontal">
+					  </TextView> 
+					  
+				  <TextView 
+				   android:id="@+id/tv_about" 
+				   android:layout_height="wrap_content" 
+				   android:layout_width="fill_parent" 
+				   android:textSize="15sp"
+				   android:layout_above="@+id/tv_banquan"
+				   android:gravity="center_horizontal"
+				    android:text="v_1.1.2"
+				   >
+				  </TextView> 
+				  
+</RelativeLayout> 

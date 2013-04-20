@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:ns="http://mobwin.android.com/apk/res/com.fgh.voice"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  >
+  
+    <com.tencent.mobwin.AdView
+        xmlns:mobwin="http://mobwin.android.com/apk/res/com.fgh.voice"
+        android:id="@+id/adview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        mobwin:textColor="#ffff3333"
+        mobwin:titleColor="#ff00aa00"
+        ns:backAlpha="180" >
+    </com.tencent.mobwin.AdView>
+  <include layout="@layout/pig_titlebar"/>
+  
+ <pigframe.views.TagCloudyView
+ 		android:id="@+id/tcv_tagcloudy"
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent" 
+       />
+</LinearLayout>

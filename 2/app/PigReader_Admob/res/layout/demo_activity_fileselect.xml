@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+  xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+>
+
+<include layout="@layout/pig_titlebar"></include>
+
+<com.google.ads.AdView 
+    	android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adUnitId="a1502380c7560f0"
+        ads:adSize="BANNER"
+        ads:loadAdOnCreate="true"/>
+
+  <TextView 
+    android:id="@+id/mPath"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="5px"
+    android:textSize="18sp"
+  >
+  </TextView>
+  <ListView 
+    android:id="@+id/lv_files"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:cacheColorHint="@color/transparent"
+  >
+  </ListView>
+</LinearLayout>

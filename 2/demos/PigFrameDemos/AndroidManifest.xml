@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.fgh.demos"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="7" />
+
+    <application android:icon="@drawable/icon"
+      android:name=".DemoApplication"
+       android:label="@string/app_name"
+       android:theme="@style/pig_Theme"
+       >
+        <activity android:name=".DemoCategoryActivity"
+        	android:theme="@style/pig_activity_Theme"
+     	 >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity  android:name=".zoompic.DemoPicZoomActivity"
+                   android:label="zoompic.PicZoomActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.PIG_FRAME" />
+                <category android:name="android.intent.category.PIG_FRAME" />
+            </intent-filter>
+        </activity>
+        <activity  android:name=".httpDemo.DemoHttpActivity"
+                   android:label=".httpDemo.DemoHttpActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.PIG_FRAME" />
+                <category android:name="android.intent.category.PIG_FRAME" />
+            </intent-filter>
+        </activity>
+        <activity  android:name=".maintab.DemoMainTabActivity"
+                   android:label=".maintab.DemoMainTabActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.PIG_FRAME" />
+                <category android:name="android.intent.category.PIG_FRAME" />
+            </intent-filter>
+        </activity>
+        <activity  android:name=".UncaughtException.UncaughDemoActivity"
+                   android:label=".UncaughtException.UncaughDemoActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.PIG_FRAME" />
+                <category android:name="android.intent.category.PIG_FRAME" />
+            </intent-filter>
+        </activity>
+        <activity  android:name=".actionbar.DemoActionBarActivity"
+                   android:label=".actionbar.DemoActionBarActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.PIG_FRAME" />
+                <category android:name="android.intent.category.PIG_FRAME" />
+            </intent-filter>
+        </activity>
+        <activity  android:name=".download.DownLoadDemoActivity"
+                   android:label=".download.DownLoadDemoActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.PIG_FRAME" />
+                <category android:name="android.intent.category.PIG_FRAME" />
+            </intent-filter>
+        </activity>
+        <activity  android:name=".tagcloudy.Demo_TagCloudy_Activity"
+                   android:label=".tagcloudy.Demo_TagCloudy_Activity" >
+            <intent-filter>
+                <action android:name="android.intent.action.PIG_FRAME" />
+                <category android:name="android.intent.category.PIG_FRAME" />
+            </intent-filter>
+        </activity>
+        <activity  android:name=".httpDemo.html.DemoHtmlActivity"
+                   android:label=".httpDemo.html.DemoHtmlActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.PIG_FRAME" />
+                <category android:name="android.intent.category.PIG_FRAME" />
+            </intent-filter>
+        </activity>
+        <activity  android:name=".sqlite.DemoCURDActivity"
+                   android:label=".sqlite.DemoCURDActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.PIG_FRAME" />
+                <category android:name="android.intent.category.PIG_FRAME" />
+            </intent-filter>
+        </activity>
+        <activity  android:name=".filexplore.DemoFileSelectActivity"
+                   android:label=".filexplore.DemoFileSelectActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.PIG_FRAME" />
+                <category android:name="android.intent.category.PIG_FRAME" />
+            </intent-filter>
+        </activity>
+       
+        <activity  android:name=".pageturner.DemoActivityEbookMain"
+                   android:label=".pageturner.DemoActivityEbookMain" >
+                   <intent-filter>
+                <action android:name="android.intent.action.PIG_FRAME" />
+                <category android:name="android.intent.category.PIG_FRAME" />
+            </intent-filter>
+        </activity>
+        <activity  android:name=".ota.OtaDemoActivity"
+                   android:label=".ota.OtaDemoActivity" >
+                   <intent-filter>
+                <action android:name="android.intent.action.PIG_FRAME" />
+                <category android:name="android.intent.category.PIG_FRAME" />
+            </intent-filter>
+        </activity>
+ 		<activity  android:name=".pageturner.DemoActivityPageTurner"/>
+        <activity  android:name=".pageturner.childtab.DemoBookSelectActivity"/>
+        <activity  android:name=".pageturner.childtab.DemoBookStoryActivity"/>
+        <activity  android:name=".pageturner.childtab.DemoDownBookActivity"/>
+    
+    </application>
+     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> 
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />   
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+</manifest>

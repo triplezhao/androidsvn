@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="src" path="PigFrameLib_src"/>
+	<classpathentry exported="true" kind="lib" path="libs/commons-codec.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/commons-httpclient-3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/commons-logging-1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/httpmime411.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/Tencent_MobWIN_BASIC_1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/Tencent_MobWIN_SDK_1.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/umeng_sdk.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

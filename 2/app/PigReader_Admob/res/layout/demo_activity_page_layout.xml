@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  >
+	  
+	    <com.fgh.reader.pageturner.PageWidget
+	  	 android:id="@+id/pw_page" 
+	     android:layout_margin="0dip"
+	     android:layout_width="fill_parent"
+	     android:layout_height="fill_parent"
+	     />
+	     
+	     <ZoomControls
+   			android:id="@+id/zc_tool"
+   			 android:layout_width="wrap_content" 
+	   		 android:layout_height="wrap_content" 
+	   		 android:layout_centerInParent="true"
+			/>	
+			
+			
+		<SeekBar 
+			android:id="@+id/pageSeekBar" 
+			android:layout_width="fill_parent" 
+			android:layout_height="50dip" 
+			android:thumb="@drawable/checked" 
+			android:progressDrawable="@drawable/pagebar_port" 
+			android:layout_alignParentBottom="true"
+			android:padding="10dip"
+			/>
+</RelativeLayout>

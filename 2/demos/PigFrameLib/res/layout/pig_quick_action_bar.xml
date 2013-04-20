@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+			 xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="4dip"
+			android:orientation="horizontal">
+
+	<RelativeLayout 
+		 
+		  android:id="@+id/rl_composer" 
+		   android:layout_width="wrap_content" 
+		   android:layout_height="wrap_content"
+		   android:paddingTop="30dip"
+		   android:paddingRight="30dip"
+		   android:paddingLeft="5dip"
+		   android:paddingBottom="5dip"
+		   >
+	   
+	   
+			<ImageView 
+				android:id="@+id/iv_1" 
+		       android:src="@drawable/composer_button"
+		       android:layout_width="30dip" 
+		       android:layout_height="30dip"
+		        android:layout_marginTop="5dip"
+		        android:layout_marginLeft="5dip">
+	       </ImageView>
+	       
+	      <ImageView android:id="@+id/iv_2" 
+	      android:src="@drawable/composer_camera" 
+	      android:layout_width="30dip"
+	      android:layout_height="30dip"
+	      android:layout_alignTop="@+id/iv_1" 
+	      android:layout_toRightOf="@+id/iv_1" 
+	      android:layout_marginTop="10dip"
+	      android:layout_marginLeft="10dip"
+	        ></ImageView>
+	        
+	        
+	      <ImageView android:id="@+id/iv_3" 
+	       android:src="@drawable/composer_music"
+	       android:layout_width="30dip"
+	      android:layout_height="30dip"
+	      android:layout_alignTop="@+id/iv_2" 
+	      android:layout_toRightOf="@+id/iv_2" 
+	      android:layout_marginTop="20dip"
+	      android:layout_marginLeft="0dip"></ImageView>
+	      
+	       <ImageView android:id="@+id/iv_4" 
+	       android:src="@drawable/composer_place"
+	       android:layout_width="30dip"
+	      android:layout_height="30dip"
+	        android:layout_alignLeft="@+id/iv_3" 
+	      android:layout_below="@+id/iv_3" 
+	      android:layout_marginTop="1dip"
+	      android:layout_marginLeft="20dip"
+	      ></ImageView>
+	      
+	      <ImageView android:id="@+id/iv_5" 
+	       android:src="@drawable/composer_sleep"
+	       android:layout_width="30dip"
+	      android:layout_height="30dip"
+	      android:layout_alignLeft="@+id/iv_4" 
+	      android:layout_below="@+id/iv_4" 
+	      android:layout_marginTop="5dip"
+	      android:layout_marginLeft="5dip"
+	       
+	      ></ImageView>
+	      
+	  </RelativeLayout>
+ </LinearLayout>

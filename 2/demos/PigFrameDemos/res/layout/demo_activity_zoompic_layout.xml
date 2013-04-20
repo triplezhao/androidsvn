@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <include layout="@layout/pig_titlebar"/>
+    
+   			 <RelativeLayout  
+		                android:layout_width="fill_parent"  
+		                android:layout_height="fill_parent" 
+		                >
+			    <LinearLayout 
+				    android:orientation="vertical"
+				    android:layout_width="fill_parent"
+				    android:layout_height="fill_parent"
+				    android:gravity="center"
+				    android:layout_marginTop="10dip"
+				    android:layout_marginBottom="50dip"
+				    android:layout_weight="2"
+				    android:layout_centerHorizontal="true"
+				    >
+						<pigframe.views.TouchView
+							android:id="@+id/tv_image"
+						    android:layout_width="wrap_content" 
+						    android:layout_height="wrap_content" 
+						    />
+		    	
+				</LinearLayout>
+				
+				  <ZoomControls
+	    			android:id="@+id/zc_tool"
+	    			 android:layout_width="wrap_content" 
+			   		 android:layout_height="wrap_content" 
+			   		 android:layout_alignParentBottom="true"
+			   		 android:layout_centerHorizontal="true"
+						/>	
+		　</RelativeLayout>
+</LinearLayout>

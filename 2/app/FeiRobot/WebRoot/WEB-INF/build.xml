@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<project name="struts" basedir="." default="">
+    <path id="classpath">
+        <fileset dir="lib">
+            <include name="*.jar"/>
+        </fileset>
+        <pathelement path="classes"/>
+    </path>
+
+	<target name="compile" description="Compile all source code">
+        <javac destdir="classes" debug="true"
+            deprecation="false" optimize="false" failonerror="true">
+            <src path="src"/>
+            <classpath refid="classpath"/>
+        </javac>
+    </target>
+
+</project>

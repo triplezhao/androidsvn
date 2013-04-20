@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    	android:background="@drawable/blue">
+
+    <GridView
+            	android:id="@+id/gv_send_list"
+				android:layout_width="fill_parent" 
+				android:layout_height="fill_parent"
+			    android:verticalSpacing="20dip"
+			    android:horizontalSpacing="10dip"
+			    android:numColumns="4"
+			    android:stretchMode="columnWidth"
+			    android:gravity="bottom"
+			    android:scrollbars="none"
+			    />
+
+</LinearLayout>

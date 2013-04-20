@@ -1,0 +1,126 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>聊天页面</title>
+</head>
+
+<body onload ="sendEmptyRequest()">
+
+<center>
+  <table width="460">
+	                <tr>
+	                    <td colspan="3">
+	                        <strong>聊天机器人&nbsp;-&nbsp;小飞 </strong>
+	                    </td>
+              		  </tr>
+                <tr>
+                    <td colspan="3">
+                        <textarea id="chatArea" name="chatArea" rows="2" cols="20" readonly style="height:144px;width:100%;">
+						</textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="style1">
+                        请输入：
+                    </td>
+                    <td style="width: 70%">
+                        <input id="chatMsg" name="chatMsg" type="text"  style="width:100%;"  onKeyPress="enterHandler(event);"/>
+                    </td>
+                    <td style="width: 15%">
+                        <input type="button" name="button" value="提交" onclick="sendRequest();" style="width:100%;" />
+                    </td>
+                </tr>
+            </table>
+           </center>
+<script>
+
+	var input = document.getElementById("chatMsg");
+	input.focus();
+
+	var XMLHttpReq;
+
+	//创建XMLHttpRequest对象       
+    function createXMLHttpRequest()
+	{
+		if(window.XMLHttpRequest)
+		{ //Mozilla 浏览器
+			XMLHttpReq = new XMLHttpRequest();
+		}
+		else if (window.ActiveXObject)
+		{
+			// IE浏览器
+			try
+			{
+				XMLHttpReq = new ActiveXObject("Msxml2.XMLHTTP");
+			}
+			catch (e)
+			{
+				try
+				{
+					XMLHttpReq = new ActiveXObject("Microsoft.XMLHTTP");
+				}
+				catch (e)
+				{
+				}
+			}
+		}
+	}
+
+	//发送请求函数
+	function sendRequest()
+	{
+		var chatMsg = input.value;
+		createXMLHttpRequest();
+        var url = "chat.do";
+		XMLHttpReq.open("POST", url, true);
+		XMLHttpReq.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+		XMLHttpReq.onreadystatechange = processResponse;//指定响应函数
+		input.value="";
+		XMLHttpReq.send("chatMsg=" + chatMsg); // 发送请求
+	}
+
+	function sendEmptyRequest()
+	{
+		createXMLHttpRequest();
+        var url = "chat.do";
+		XMLHttpReq.open("POST", url, true);
+		XMLHttpReq.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+		XMLHttpReq.onreadystatechange = processResponse;//指定响应函数
+		XMLHttpReq.send(null); // 发送请求
+		setTimeout("sendEmptyRequest()" , 800);
+	}
+
+
+	// 处理返回信息函数
+    function processResponse()
+	{
+		if (XMLHttpReq.readyState == 4)
+		{
+			// 判断对象状态
+			if (XMLHttpReq.status == 200)
+			{
+				// 信息已经成功返回，开始处理信息
+				document.getElementById("chatArea").value = XMLHttpReq.responseText;
+            }
+			else
+			{
+				//页面不正常
+                window.alert("您所请求的页面有异常。");
+            }
+        }
+    }
+
+	function enterHandler(event)
+	{
+		var keyCode = event.keyCode ? event.keyCode : event.which ? event.which : event.charCode;
+		if (keyCode == 13) {
+			sendRequest();
+		} 
+	}
+
+</script>
+</body>
+</html>
+

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+     <string name="STR_YEARS">年</string>
+    <string name="STR_MONTHS">月</string>
+    <string name="STR_DAYS">日</string>
+    <string name="STR_HOURS">小时</string>
+    <string name="STR_MINUTES">分钟</string>
+    <string name="STR_AGO"> 前</string>
+    
+
+    
+    <!-- 使用的体育广播的 微博账号做公共账号，为了防止万一微博账号异常，不至于毁了主账号 -->
+    <string name="STR_DEF_USER_ID">2272959173</string>
+    <string name="STR_DEF_USER_NAME">默认账号</string>
+    <string name="STR_DEF_USER_Token">bcf1c0cbb7c764feed10201af6df0a32</string>
+    <string name="STR_DEF_USER_TokenSecret">8855bf2a0e14b36043e37f326284deca</string>
+    
+    <!-- 不同微博应用，修改的配置文件 -->
+    <string name="STR_WEIBO_SUBJECT_NAME">中国好声音</string>
+    <string name="PIG_FRAME_APP_NAME"> 好声音微博助手</string>
+    <string name="PIG_FRAME_STATIC_LIST_TITLE"> 学员列表</string>
+    <string name="PIG_FRAME_ABOUT_INFO"> 中国好声音微博助手_v_1.1.0</string>
+    <string name="PIG_FRAME_APP_CLOUDY"> 热门话题</string>
+    <string name="PIG_FRAME_APP_ABOUT"> 关于</string>
+</resources>

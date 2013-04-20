@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="white">#FFFFFF</color>
+<color name="black">#000000</color>
+<color name="green">#99cc00</color>
+<color name="yellow">#FFE890</color>
+<color name="trans">#00000000</color>
+<color name="blue">#0000ff</color>
+<color name="alphaBlack">#01010101</color>
+<color name="brown">#a52a2a</color>
+<color name="gray1">#3D3D3D</color>
+<color name="gray2">#4D4D4D</color>
+<color name="gray3">#8C8C8C</color>
+<color name="gray4">#D9D9D9</color>
+<color name="red">#FF0000</color>
+<color name="graylight">#CCCCCC</color>
+<color name="burlywood">#DEB887</color>
+<color name="goldenrod">#DAA520</color>
+<color name="eggshell">#FCE6C9</color>
+<!--  <color name="shuji">#D4C197</color>
+-->
+<color name="shuji">#fff3d6</color>
+
+
+<!-- Activity background color -->
+    <drawable name="class_zero_background">#7f040000</drawable>
+
+    <!-- Widget background -->
+    <drawable name="light_blue_background">#ffecfbff</drawable>
+    <drawable name="white_background">#ffffffff</drawable>
+
+    <!-- text color -->
+    <drawable name="text_color">#ffffffff</drawable>
+    <drawable name="text_color_red">#ffff0000</drawable>
+    <drawable name="text_color_black">#ff000000</drawable>
+    <drawable name="text_color_offwhite">#55ffffff</drawable>
+
+    <!-- Chat "sent time" text background -->
+    <color name="timestamp_color">#bf000000</color>
+
+    <!-- the background color used for unread conversation -->
+    <color name="unread_bgcolor">#ffffffff</color>
+    <color name="read_bgcolor">#ffeeeeee</color>
+</resources>

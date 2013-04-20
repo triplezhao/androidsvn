@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:ns="http://mobwin.android.com/apk/res/com.fgh.reader"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+>
+
+<include layout="@layout/pig_titlebar"></include>
+
+<com.tencent.mobwin.AdView
+        xmlns:mobwin="http://mobwin.android.com/apk/res/com.fgh.reader"
+        android:id="@+id/adview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        mobwin:textColor="#ffff3333"
+        mobwin:titleColor="#ff00aa00"
+        ns:backAlpha="180" >
+    </com.tencent.mobwin.AdView>
+
+  <TextView 
+    android:id="@+id/mPath"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="5px"
+    android:textSize="18sp"
+  >
+  </TextView>
+  <ListView 
+    android:id="@+id/lv_files"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:cacheColorHint="@color/transparent"
+  >
+  </ListView>
+</LinearLayout>

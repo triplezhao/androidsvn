@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  <include layout="@layout/pig_titlebar"/>
+       <LinearLayout
+           		android:id="@+id/edit_search_bg"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dip"
+                android:paddingBottom="5dip"
+                android:paddingLeft="5dip"
+                android:paddingRight="5dip"
+                >
+		 			<EditText
+		 			        android:id="@+id/et_search"
+			                android:layout_width="0dip"
+		                    android:layout_height="wrap_content"
+		                    android:layout_weight="1.0"
+		                    android:autoText="true"
+		                    android:nextFocusRight="@+id/send_button"
+		                    android:maxLines="1"
+		                    android:background="@drawable/input_search_full_m"
+			                android:hint="书名"
+			                android:drawableLeft="@drawable/icon_search_magnifier_m"
+		            />
+         		 <Button 
+	                 android:id="@+id/bt_search"  
+	                 android:layout_width="25dip"
+	                 android:layout_height="25dip"
+	                 android:layout_alignParentRight="true"
+	                 android:background="@drawable/bt_search_selector"
+	                 android:layout_gravity="center_vertical"
+	                 android:layout_marginLeft="5dip"
+	                 android:layout_marginBottom="2dip"
+	                />
+            </LinearLayout>
+            
+            <WebView 
+              android:id="@+id/webv_search"  
+              android:layout_width="fill_parent"
+  			  android:layout_height="fill_parent"
+            	/>
+            
+</LinearLayout>
